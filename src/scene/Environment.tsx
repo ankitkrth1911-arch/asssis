@@ -33,6 +33,7 @@ export function Environment() {
 
   return (
     <group>
+{/* @ts-ignore */}
       <a.color attach="background" args={[bg]} />
       {/* @ts-ignore */}
       <a.fogExp2 attach="fog" args={[fog, density]} />
